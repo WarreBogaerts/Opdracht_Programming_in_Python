@@ -8,9 +8,12 @@ Functionaliteiten
 - Taken toevoegen
 - Taken starten
 - Taken voltooien
-- Taken bewerken
 - Taken verwijderen
 - Taken tonen
 
 - Taken worden opgeslaan op een database.
 - Taken worden aangepast en deze aanpassing gebeurd ook in de database.
+
+- Er wordt gesproken met de gebruiker via de terminal.
+
+- De user kan van alle taken in de database een csv of Excel-bestand opvragen.
