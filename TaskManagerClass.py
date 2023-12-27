@@ -5,13 +5,11 @@ cursor = dbConnectie.cursor()
 
 class TaskManager:
 
-    def add_task(self,task_name, query):
-        test_query = "SELECT Title FROM Tasks"
-        cursor.execute(test_query)
-        rows = cursor.fetchall()
-
+    def add_task(self,title,descr, query):
         add_query = query
-        cursor.execute(add_query)
+        parameters = (title,descr)
+
+        cursor.execute(add_query, parameters)
         dbConnectie.commit()
 
         print("De taak is aangemaakt. Nu kan u deze starten, afwerken of verwijderen.")
