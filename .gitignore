@@ -1,2 +1,6 @@
-# ignore all .txt files
-*.txt
+
+#ignore .venv folder
+**/.venv/
+
+#ignore database
+*.db
